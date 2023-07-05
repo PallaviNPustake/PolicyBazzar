@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="2" failed="1" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Launching Policy Bazzar Appilcation]]>
+    </line>
+    <line>
+      <![CDATA[Waiting for complete load page, wait time-1000]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on sign in home page]]>
+    </line>
+    <line>
+      <![CDATA[Waiting for complete load page, wait time-1000]]>
+    </line>
+    <line>
+      <![CDATA[Reading data from excel row number-1, cell number-0]]>
+    </line>
+    <line>
+      <![CDATA[Entering mobile number]]>
+    </line>
+    <line>
+      <![CDATA[Waiting for,wait time-1000]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on sign in with password]]>
+    </line>
+    <line>
+      <![CDATA[Waiting for,wait time-1000]]>
+    </line>
+    <line>
+      <![CDATA[Reading data from excel row number-1, cell number-1]]>
+    </line>
+    <line>
+      <![CDATA[Entering password]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on sign in]]>
+    </line>
+    <line>
+      <![CDATA[Waiting for complete load page, wait time-1500]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on my account]]>
+    </line>
+    <line>
+      <![CDATA[Waiting for,wait time-1000]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on my profile]]>
+    </line>
+    <line>
+      <![CDATA[Waiting for complete load page, wait time-1500]]>
+    </line>
+    <line>
+      <![CDATA[validatingProfilePageURL Execution started]]>
+    </line>
+    <line>
+      <![CDATA[Taking screenshot and stored at-C:\Users\palla\OneDrive\Documents\Automation\Screenshot\PolicyBazzar\validatingProfilePageURL-W2.png]]>
+    </line>
+    <line>
+      <![CDATA[validatingProfilePageURL is failed, Please check and try again]]>
+    </line>
+    <line>
+      <![CDATA[validatingUserName Execution started]]>
+    </line>
+    <line>
+      <![CDATA[Reading data from excel row number-1, cell number-2]]>
+    </line>
+    <line>
+      <![CDATA[Actual and expected username are matching - TC is Passed]]>
+    </line>
+    <line>
+      <![CDATA[Taking screenshot and stored at-C:\Users\palla\OneDrive\Documents\Automation\Screenshot\PolicyBazzar\Pallavi Pustake-POL_TC_1234-m0.png]]>
+    </line>
+    <line>
+      <![CDATA[validatingUserName is successfully executed]]>
+    </line>
+    <line>
+      <![CDATA[validatingEmailID Execution started]]>
+    </line>
+    <line>
+      <![CDATA[Reading data from excel row number-1, cell number-3]]>
+    </line>
+    <line>
+      <![CDATA[Actual and expected EmailID's are matching - TC is passed]]>
+    </line>
+    <line>
+      <![CDATA[validatingEmailID is successfully executed]]>
+    </line>
+    <line>
+      <![CDATA[Logging out from Policy Bazzar Application]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2023-07-01T10:17:02 IST" name="Suite" finished-at="2023-07-01T10:17:30 IST" duration-ms="27733">
+    <groups>
+    </groups>
+    <test started-at="2023-07-01T10:17:02 IST" name="Test" finished-at="2023-07-01T10:17:30 IST" duration-ms="27733">
+      <class name="testPolicyBazzar.POL_TC_1234_ValidatingPersonalDetails">
+        <test-method is-config="true" signature="openPolicyBazzarApplication()[pri:0, instance:testPolicyBazzar.POL_TC_1234_ValidatingPersonalDetails@75d3a5e0]" started-at="2023-07-01T10:17:02 IST" name="openPolicyBazzarApplication" finished-at="2023-07-01T10:17:25 IST" duration-ms="22707" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Launching Policy Bazzar Appilcation]]>
+            </line>
+            <line>
+              <![CDATA[Waiting for complete load page, wait time-1000]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on sign in home page]]>
+            </line>
+            <line>
+              <![CDATA[Waiting for complete load page, wait time-1000]]>
+            </line>
+            <line>
+              <![CDATA[Reading data from excel row number-1, cell number-0]]>
+            </line>
+            <line>
+              <![CDATA[Entering mobile number]]>
+            </line>
+            <line>
+              <![CDATA[Waiting for,wait time-1000]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on sign in with password]]>
+            </line>
+            <line>
+              <![CDATA[Waiting for,wait time-1000]]>
+            </line>
+            <line>
+              <![CDATA[Reading data from excel row number-1, cell number-1]]>
+            </line>
+            <line>
+              <![CDATA[Entering password]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on sign in]]>
+            </line>
+            <line>
+              <![CDATA[Waiting for complete load page, wait time-1500]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on my account]]>
+            </line>
+            <line>
+              <![CDATA[Waiting for,wait time-1000]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on my profile]]>
+            </line>
+            <line>
+              <![CDATA[Waiting for complete load page, wait time-1500]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- openPolicyBazzarApplication -->
+        <test-method signature="validatingProfilePageURL()[pri:-1, instance:testPolicyBazzar.POL_TC_1234_ValidatingPersonalDetails@75d3a5e0]" started-at="2023-07-01T10:17:25 IST" name="validatingProfilePageURL" finished-at="2023-07-01T10:17:28 IST" duration-ms="2527" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[TC is failed expected [ttps://myaccount.policybazaar.com/profile] but found [https://myaccount.policybazaar.com/profile]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: TC is failed expected [ttps://myaccount.policybazaar.com/profile] but found [https://myaccount.policybazaar.com/profile]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at testPolicyBazzar.POL_TC_1234_ValidatingPersonalDetails.validatingProfilePageURL(POL_TC_1234_ValidatingPersonalDetails.java:62)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[validatingProfilePageURL Execution started]]>
+            </line>
+            <line>
+              <![CDATA[Taking screenshot and stored at-C:\Users\palla\OneDrive\Documents\Automation\Screenshot\PolicyBazzar\validatingProfilePageURL-W2.png]]>
+            </line>
+            <line>
+              <![CDATA[validatingProfilePageURL is failed, Please check and try again]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validatingProfilePageURL -->
+        <test-method signature="validatingUserName()[pri:0, instance:testPolicyBazzar.POL_TC_1234_ValidatingPersonalDetails@75d3a5e0]" started-at="2023-07-01T10:17:29 IST" name="validatingUserName" finished-at="2023-07-01T10:17:29 IST" duration-ms="401" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[validatingUserName Execution started]]>
+            </line>
+            <line>
+              <![CDATA[Reading data from excel row number-1, cell number-2]]>
+            </line>
+            <line>
+              <![CDATA[Actual and expected username are matching - TC is Passed]]>
+            </line>
+            <line>
+              <![CDATA[Taking screenshot and stored at-C:\Users\palla\OneDrive\Documents\Automation\Screenshot\PolicyBazzar\Pallavi Pustake-POL_TC_1234-m0.png]]>
+            </line>
+            <line>
+              <![CDATA[validatingUserName is successfully executed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validatingUserName -->
+        <test-method signature="validatingEmailID()[pri:1, instance:testPolicyBazzar.POL_TC_1234_ValidatingPersonalDetails@75d3a5e0]" started-at="2023-07-01T10:17:29 IST" name="validatingEmailID" finished-at="2023-07-01T10:17:29 IST" duration-ms="148" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[validatingEmailID Execution started]]>
+            </line>
+            <line>
+              <![CDATA[Reading data from excel row number-1, cell number-3]]>
+            </line>
+            <line>
+              <![CDATA[Actual and expected EmailID's are matching - TC is passed]]>
+            </line>
+            <line>
+              <![CDATA[validatingEmailID is successfully executed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validatingEmailID -->
+        <test-method is-config="true" signature="closingBrowser()[pri:0, instance:testPolicyBazzar.POL_TC_1234_ValidatingPersonalDetails@75d3a5e0]" started-at="2023-07-01T10:17:29 IST" name="closingBrowser" finished-at="2023-07-01T10:17:30 IST" duration-ms="1043" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Logging out from Policy Bazzar Application]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closingBrowser -->
+      </class> <!-- testPolicyBazzar.POL_TC_1234_ValidatingPersonalDetails -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
