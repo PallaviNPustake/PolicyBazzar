@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>3/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>3/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Sat Jul 01 10:57:06 IST 2023</td>
+<td>Started on:</td><td>Wed Jul 05 12:37:54 IST 2023</td>
 </tr>
-<tr><td>Total time:</td><td>25 seconds (25584 ms)</td>
+<tr><td>Total time:</td><td>28 seconds (28254 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,6 +67,70 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='testPolicyBazzar.POL_TC_1234_ValidatingPersonalDetails.validatingFemaleRadioSelection()'><b>validatingFemaleRadioSelection</b><br>Test class: testPolicyBazzar.POL_TC_1234_ValidatingPersonalDetails<br/>
+<a href="#Output-1801709229" onClick='toggleBox("Output-1801709229", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1801709229" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1801709229">
+validatingFemaleRadioSelection Execution started<br/>
+Taking screenshot and stored at-C:\Users\palla\EclipseWorksapce\PolicyBazzarProject\screenshots\validatingFemaleRadioSelection-Jl.png<br/>
+validatingFemaleRadioSelection is failed, Please check and try again<br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: Value is false expected [true] but found [false]
+	at testPolicyBazzar.POL_TC_1234_ValidatingPersonalDetails.validatingFemaleRadioSelection(POL_TC_1234_ValidatingPersonalDetails.java:87)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 34 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1801709229", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1801709229'><pre>java.lang.AssertionError: Value is false expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at testPolicyBazzar.POL_TC_1234_ValidatingPersonalDetails.validatingFemaleRadioSelection(POL_TC_1234_ValidatingPersonalDetails.java:87)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:848)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+	at org.testng.TestNG.runSuites(TestNG.java:1114)
+	at org.testng.TestNG.run(TestNG.java:1082)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+</pre></div></td>
+<td>0</td>
+<td>testPolicyBazzar.POL_TC_1234_ValidatingPersonalDetails@70e9c95d</td></tr>
+</table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -76,41 +140,41 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='testPolicyBazzar.POL_TC_1234_ValidatingPersonalDetails.validatingUserName()'><b>validatingUserName</b><br>Test class: testPolicyBazzar.POL_TC_1234_ValidatingPersonalDetails<br/>
-<a href="#Output-1977776214" onClick='toggleBox("Output-1977776214", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-1977776214" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1977776214">
-validatingUserName Execution started<br/>
-Reading data from excel row number-1, cell number-2<br/>
-Actual and expected username are matching - TC is Passed<br/>
-Taking screenshot and stored at-C:\Users\palla\EclipseWorksapce\PolicyBazzarProject\screenshots\Pallavi Pustake-POL_TC_1234-3g.png<br/>
-validatingUserName is successfully executed<br/>
-</div>
-</td>
-<td></td>
-<td>1</td>
-<td>testPolicyBazzar.POL_TC_1234_ValidatingPersonalDetails@4d5650ae</td></tr>
-<tr>
 <td title='testPolicyBazzar.POL_TC_1234_ValidatingPersonalDetails.validatingProfilePageURL()'><b>validatingProfilePageURL</b><br>Test class: testPolicyBazzar.POL_TC_1234_ValidatingPersonalDetails<br/>
-<a href="#Output-1446291553" onClick='toggleBox("Output-1446291553", this, "Show output", "Hide output");'>Show output</a>
+<a href="#Output-295372946" onClick='toggleBox("Output-295372946", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-1446291553" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1446291553">
+<a href="#Output-295372946" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-295372946">
 validatingProfilePageURL Execution started<br/>
 Actual and expected url are matching - TC is passed<br/>
 validatingProfilePageURL is successfully executed<br/>
 </div>
 </td>
 <td></td>
-<td>2</td>
-<td>testPolicyBazzar.POL_TC_1234_ValidatingPersonalDetails@4d5650ae</td></tr>
+<td>3</td>
+<td>testPolicyBazzar.POL_TC_1234_ValidatingPersonalDetails@70e9c95d</td></tr>
+<tr>
+<td title='testPolicyBazzar.POL_TC_1234_ValidatingPersonalDetails.validatingUserName()'><b>validatingUserName</b><br>Test class: testPolicyBazzar.POL_TC_1234_ValidatingPersonalDetails<br/>
+<a href="#Output-518290846" onClick='toggleBox("Output-518290846", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-518290846" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-518290846">
+validatingUserName Execution started<br/>
+Reading data from excel row number-1, cell number-2<br/>
+Actual and expected username are matching - TC is Passed<br/>
+Taking screenshot and stored at-C:\Users\palla\EclipseWorksapce\PolicyBazzarProject\screenshots\Pallavi Pustake-POL_TC_1234-AS.png<br/>
+validatingUserName is successfully executed<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testPolicyBazzar.POL_TC_1234_ValidatingPersonalDetails@70e9c95d</td></tr>
 <tr>
 <td title='testPolicyBazzar.POL_TC_1234_ValidatingPersonalDetails.validatingEmailID()'><b>validatingEmailID</b><br>Test class: testPolicyBazzar.POL_TC_1234_ValidatingPersonalDetails<br/>
-<a href="#Output-1595362770" onClick='toggleBox("Output-1595362770", this, "Show output", "Hide output");'>Show output</a>
+<a href="#Output-625232315" onClick='toggleBox("Output-625232315", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-1595362770" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1595362770">
+<a href="#Output-625232315" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-625232315">
 validatingEmailID Execution started<br/>
 Reading data from excel row number-1, cell number-3<br/>
 Actual and expected EmailID's are matching - TC is passed<br/>
@@ -119,7 +183,7 @@ validatingEmailID is successfully executed<br/>
 </td>
 <td></td>
 <td>0</td>
-<td>testPolicyBazzar.POL_TC_1234_ValidatingPersonalDetails@4d5650ae</td></tr>
+<td>testPolicyBazzar.POL_TC_1234_ValidatingPersonalDetails@70e9c95d</td></tr>
 </table><p>
 </body>
 </html>

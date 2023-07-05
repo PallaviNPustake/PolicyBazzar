@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="3" failed="1" skipped="0">
   <reporter-output>
     <line>
       <![CDATA[Launching Policy Bazzar Appilcation]]>
@@ -62,6 +62,15 @@
       <![CDATA[validatingProfilePageURL is successfully executed]]>
     </line>
     <line>
+      <![CDATA[validatingFemaleRadioSelection Execution started]]>
+    </line>
+    <line>
+      <![CDATA[Taking screenshot and stored at-C:\Users\palla\EclipseWorksapce\PolicyBazzarProject\screenshots\validatingFemaleRadioSelection-Jl.png]]>
+    </line>
+    <line>
+      <![CDATA[validatingFemaleRadioSelection is failed, Please check and try again]]>
+    </line>
+    <line>
       <![CDATA[validatingUserName Execution started]]>
     </line>
     <line>
@@ -71,7 +80,7 @@
       <![CDATA[Actual and expected username are matching - TC is Passed]]>
     </line>
     <line>
-      <![CDATA[Taking screenshot and stored at-C:\Users\palla\EclipseWorksapce\PolicyBazzarProject\screenshots\Pallavi Pustake-POL_TC_1234-3g.png]]>
+      <![CDATA[Taking screenshot and stored at-C:\Users\palla\EclipseWorksapce\PolicyBazzarProject\screenshots\Pallavi Pustake-POL_TC_1234-AS.png]]>
     </line>
     <line>
       <![CDATA[validatingUserName is successfully executed]]>
@@ -91,85 +100,13 @@
     <line>
       <![CDATA[Logging out from Policy Bazzar Application]]>
     </line>
-    <line>
-      <![CDATA[Launching Policy Bazzar Appilcation]]>
-    </line>
-    <line>
-      <![CDATA[Waiting for complete load page, wait time-1000]]>
-    </line>
-    <line>
-      <![CDATA[Waiting for,wait time-500]]>
-    </line>
-    <line>
-      <![CDATA[Clicking on sign in home page]]>
-    </line>
-    <line>
-      <![CDATA[Waiting for complete load page, wait time-1000]]>
-    </line>
-    <line>
-      <![CDATA[Reading data from property file, Key-mobileNumberAnd Value-9096834216]]>
-    </line>
-    <line>
-      <![CDATA[Entering mobile number]]>
-    </line>
-    <line>
-      <![CDATA[Waiting for,wait time-1000]]>
-    </line>
-    <line>
-      <![CDATA[Clicking on sign in with password]]>
-    </line>
-    <line>
-      <![CDATA[Waiting for,wait time-1000]]>
-    </line>
-    <line>
-      <![CDATA[Reading data from property file, Key-passwordAnd Value-pallavi@123]]>
-    </line>
-    <line>
-      <![CDATA[Entering password]]>
-    </line>
-    <line>
-      <![CDATA[Clicking on sign in]]>
-    </line>
-    <line>
-      <![CDATA[Waiting for complete load page, wait time-1500]]>
-    </line>
-    <line>
-      <![CDATA[Clicking on my account]]>
-    </line>
-    <line>
-      <![CDATA[Waiting for,wait time-1000]]>
-    </line>
-    <line>
-      <![CDATA[Clicking on my profile]]>
-    </line>
-    <line>
-      <![CDATA[Waiting for complete load page, wait time-1500]]>
-    </line>
-    <line>
-      <![CDATA[validatingUserName Execution started]]>
-    </line>
-    <line>
-      <![CDATA[Reading data from property file, Key-usernameAnd Value-Pallavi Pustake]]>
-    </line>
-    <line>
-      <![CDATA[Actual and expected username are matching - TC is paased]]>
-    </line>
-    <line>
-      <![CDATA[Taking screenshot and stored at-C:\Users\palla\EclipseWorksapce\PolicyBazzarProject\screenshots\Pallavi Pustake-POL_TC1233-FS.png]]>
-    </line>
-    <line>
-      <![CDATA[validatingUserName is successfully executed]]>
-    </line>
-    <line>
-      <![CDATA[Logging out from Policy Bazzar Application]]>
-    </line>
   </reporter-output>
-  <suite started-at="2023-07-01T10:57:06 IST" name="Suite" finished-at="2023-07-01T10:57:32 IST" duration-ms="25584">
+  <suite started-at="2023-07-05T12:37:54 IST" name="Suite" finished-at="2023-07-05T12:38:22 IST" duration-ms="28254">
     <groups>
     </groups>
-    <test started-at="2023-07-01T10:57:06 IST" name="Test" finished-at="2023-07-01T10:57:32 IST" duration-ms="25584">
+    <test started-at="2023-07-05T12:37:54 IST" name="Test" finished-at="2023-07-05T12:38:22 IST" duration-ms="28254">
       <class name="testPolicyBazzar.POL_TC_1234_ValidatingPersonalDetails">
-        <test-method is-config="true" signature="openPolicyBazzarApplication()[pri:0, instance:testPolicyBazzar.POL_TC_1234_ValidatingPersonalDetails@4d5650ae]" started-at="2023-07-01T10:57:06 IST" name="openPolicyBazzarApplication" finished-at="2023-07-01T10:57:27 IST" duration-ms="20376" status="PASS">
+        <test-method is-config="true" signature="openPolicyBazzarApplication()[pri:0, instance:testPolicyBazzar.POL_TC_1234_ValidatingPersonalDetails@70e9c95d]" started-at="2023-07-05T12:37:54 IST" name="openPolicyBazzarApplication" finished-at="2023-07-05T12:38:17 IST" duration-ms="22877" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Launching Policy Bazzar Appilcation]]>
@@ -224,7 +161,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- openPolicyBazzarApplication -->
-        <test-method signature="validatingProfilePageURL()[pri:-1, instance:testPolicyBazzar.POL_TC_1234_ValidatingPersonalDetails@4d5650ae]" started-at="2023-07-01T10:57:27 IST" name="validatingProfilePageURL" finished-at="2023-07-01T10:57:30 IST" duration-ms="2897" status="PASS">
+        <test-method signature="validatingProfilePageURL()[pri:-1, instance:testPolicyBazzar.POL_TC_1234_ValidatingPersonalDetails@70e9c95d]" started-at="2023-07-05T12:38:17 IST" name="validatingProfilePageURL" finished-at="2023-07-05T12:38:20 IST" duration-ms="3714" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[validatingProfilePageURL Execution started]]>
@@ -237,7 +174,65 @@
             </line>
           </reporter-output>
         </test-method> <!-- validatingProfilePageURL -->
-        <test-method signature="validatingUserName()[pri:0, instance:testPolicyBazzar.POL_TC_1234_ValidatingPersonalDetails@4d5650ae]" started-at="2023-07-01T10:57:30 IST" name="validatingUserName" finished-at="2023-07-01T10:57:31 IST" duration-ms="1292" status="PASS">
+        <test-method signature="validatingFemaleRadioSelection()[pri:0, instance:testPolicyBazzar.POL_TC_1234_ValidatingPersonalDetails@70e9c95d]" started-at="2023-07-05T12:38:20 IST" name="validatingFemaleRadioSelection" finished-at="2023-07-05T12:38:20 IST" duration-ms="140" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Value is false expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Value is false expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at testPolicyBazzar.POL_TC_1234_ValidatingPersonalDetails.validatingFemaleRadioSelection(POL_TC_1234_ValidatingPersonalDetails.java:87)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[validatingFemaleRadioSelection Execution started]]>
+            </line>
+            <line>
+              <![CDATA[Taking screenshot and stored at-C:\Users\palla\EclipseWorksapce\PolicyBazzarProject\screenshots\validatingFemaleRadioSelection-Jl.png]]>
+            </line>
+            <line>
+              <![CDATA[validatingFemaleRadioSelection is failed, Please check and try again]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validatingFemaleRadioSelection -->
+        <test-method signature="validatingUserName()[pri:0, instance:testPolicyBazzar.POL_TC_1234_ValidatingPersonalDetails@70e9c95d]" started-at="2023-07-05T12:38:21 IST" name="validatingUserName" finished-at="2023-07-05T12:38:21 IST" duration-ms="290" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[validatingUserName Execution started]]>
@@ -249,14 +244,14 @@
               <![CDATA[Actual and expected username are matching - TC is Passed]]>
             </line>
             <line>
-              <![CDATA[Taking screenshot and stored at-C:\Users\palla\EclipseWorksapce\PolicyBazzarProject\screenshots\Pallavi Pustake-POL_TC_1234-3g.png]]>
+              <![CDATA[Taking screenshot and stored at-C:\Users\palla\EclipseWorksapce\PolicyBazzarProject\screenshots\Pallavi Pustake-POL_TC_1234-AS.png]]>
             </line>
             <line>
               <![CDATA[validatingUserName is successfully executed]]>
             </line>
           </reporter-output>
         </test-method> <!-- validatingUserName -->
-        <test-method signature="validatingEmailID()[pri:1, instance:testPolicyBazzar.POL_TC_1234_ValidatingPersonalDetails@4d5650ae]" started-at="2023-07-01T10:57:31 IST" name="validatingEmailID" finished-at="2023-07-01T10:57:31 IST" duration-ms="128" status="PASS">
+        <test-method signature="validatingEmailID()[pri:1, instance:testPolicyBazzar.POL_TC_1234_ValidatingPersonalDetails@70e9c95d]" started-at="2023-07-05T12:38:21 IST" name="validatingEmailID" finished-at="2023-07-05T12:38:21 IST" duration-ms="191" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[validatingEmailID Execution started]]>
@@ -272,7 +267,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- validatingEmailID -->
-        <test-method is-config="true" signature="closingBrowser()[pri:0, instance:testPolicyBazzar.POL_TC_1234_ValidatingPersonalDetails@4d5650ae]" started-at="2023-07-01T10:57:31 IST" name="closingBrowser" finished-at="2023-07-01T10:57:32 IST" duration-ms="773" status="PASS">
+        <test-method is-config="true" signature="closingBrowser()[pri:0, instance:testPolicyBazzar.POL_TC_1234_ValidatingPersonalDetails@70e9c95d]" started-at="2023-07-05T12:38:21 IST" name="closingBrowser" finished-at="2023-07-05T12:38:22 IST" duration-ms="792" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Logging out from Policy Bazzar Application]]>
@@ -282,104 +277,4 @@
       </class> <!-- testPolicyBazzar.POL_TC_1234_ValidatingPersonalDetails -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
-  <suite started-at="2023-07-01T10:57:32 IST" name="Suite (0)" finished-at="2023-07-01T10:57:52 IST" duration-ms="20542">
-    <groups>
-    </groups>
-    <test started-at="2023-07-01T10:57:32 IST" name="Test" finished-at="2023-07-01T10:57:52 IST" duration-ms="20542">
-      <class name="testPolicyBazzar.POL_TC_1233_ValidatingPolicyBazzarUserNamePropertyFile">
-        <test-method is-config="true" signature="openPolicyBazzarApplication()[pri:0, instance:testPolicyBazzar.POL_TC_1233_ValidatingPolicyBazzarUserNamePropertyFile@15bb5034]" started-at="2023-07-01T10:57:32 IST" name="openPolicyBazzarApplication" finished-at="2023-07-01T10:57:39 IST" duration-ms="6616" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[Launching Policy Bazzar Appilcation]]>
-            </line>
-            <line>
-              <![CDATA[Waiting for complete load page, wait time-1000]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- openPolicyBazzarApplication -->
-        <test-method is-config="true" signature="signInToPolicyBazzar()[pri:0, instance:testPolicyBazzar.POL_TC_1233_ValidatingPolicyBazzarUserNamePropertyFile@15bb5034]" started-at="2023-07-01T10:57:39 IST" name="signInToPolicyBazzar" finished-at="2023-07-01T10:57:48 IST" duration-ms="9526" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[Waiting for,wait time-500]]>
-            </line>
-            <line>
-              <![CDATA[Clicking on sign in home page]]>
-            </line>
-            <line>
-              <![CDATA[Waiting for complete load page, wait time-1000]]>
-            </line>
-            <line>
-              <![CDATA[Reading data from property file, Key-mobileNumberAnd Value-9096834216]]>
-            </line>
-            <line>
-              <![CDATA[Entering mobile number]]>
-            </line>
-            <line>
-              <![CDATA[Waiting for,wait time-1000]]>
-            </line>
-            <line>
-              <![CDATA[Clicking on sign in with password]]>
-            </line>
-            <line>
-              <![CDATA[Waiting for,wait time-1000]]>
-            </line>
-            <line>
-              <![CDATA[Reading data from property file, Key-passwordAnd Value-pallavi@123]]>
-            </line>
-            <line>
-              <![CDATA[Entering password]]>
-            </line>
-            <line>
-              <![CDATA[Clicking on sign in]]>
-            </line>
-            <line>
-              <![CDATA[Waiting for complete load page, wait time-1500]]>
-            </line>
-            <line>
-              <![CDATA[Clicking on my account]]>
-            </line>
-            <line>
-              <![CDATA[Waiting for,wait time-1000]]>
-            </line>
-            <line>
-              <![CDATA[Clicking on my profile]]>
-            </line>
-            <line>
-              <![CDATA[Waiting for complete load page, wait time-1500]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- signInToPolicyBazzar -->
-        <test-method signature="validatingUserName()[pri:0, instance:testPolicyBazzar.POL_TC_1233_ValidatingPolicyBazzarUserNamePropertyFile@15bb5034]" started-at="2023-07-01T10:57:48 IST" name="validatingUserName" finished-at="2023-07-01T10:57:52 IST" duration-ms="3704" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[validatingUserName Execution started]]>
-            </line>
-            <line>
-              <![CDATA[Reading data from property file, Key-usernameAnd Value-Pallavi Pustake]]>
-            </line>
-            <line>
-              <![CDATA[Actual and expected username are matching - TC is paased]]>
-            </line>
-            <line>
-              <![CDATA[Taking screenshot and stored at-C:\Users\palla\EclipseWorksapce\PolicyBazzarProject\screenshots\Pallavi Pustake-POL_TC1233-FS.png]]>
-            </line>
-            <line>
-              <![CDATA[validatingUserName is successfully executed]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- validatingUserName -->
-        <test-method is-config="true" signature="logOutFromPolicyBazzar()[pri:0, instance:testPolicyBazzar.POL_TC_1233_ValidatingPolicyBazzarUserNamePropertyFile@15bb5034]" started-at="2023-07-01T10:57:52 IST" name="logOutFromPolicyBazzar" finished-at="2023-07-01T10:57:52 IST" duration-ms="304" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[Logging out from Policy Bazzar Application]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- logOutFromPolicyBazzar -->
-        <test-method is-config="true" signature="closingBrowser()[pri:0, instance:testPolicyBazzar.POL_TC_1233_ValidatingPolicyBazzarUserNamePropertyFile@15bb5034]" started-at="2023-07-01T10:57:52 IST" name="closingBrowser" finished-at="2023-07-01T10:57:52 IST" duration-ms="385" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closingBrowser -->
-      </class> <!-- testPolicyBazzar.POL_TC_1233_ValidatingPolicyBazzarUserNamePropertyFile -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite (0) -->
 </testng-results>

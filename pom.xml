@@ -38,7 +38,7 @@
             <!-- put your configurations here -->
             <suiteXmlFiles>
 				<suiteXmlFile>ValidatingPersonalDetailstestng.xml</suiteXmlFile>
-				<suiteXmlFile>validatingUNPropertytestng.xml</suiteXmlFile>
+				
 			</suiteXmlFiles>
            
           </configuration>

@@ -11,6 +11,7 @@ public class MyAccountProfilePage {
 	@FindBy(xpath = "//div[@class='textCapitalize sc-ckVGcZ kWpXlQ']") private WebElement userName;
 	@FindBy(className = "h_l") private WebElement logOutButton;
 	@FindBy(xpath = "//input[@name=\"email\"]") private WebElement emailIdField;
+	@FindBy(xpath = "(//input[@name='salutation'])[2]") private WebElement femaleRadioButton;
 	//
 	public MyAccountProfilePage(WebDriver driver)
 	{
@@ -33,5 +34,8 @@ public class MyAccountProfilePage {
 	{
 		logOutButton.click();
 	}
-
+    public boolean femaleIsSelected() {
+    	boolean femaleRadioBtn = femaleRadioButton.isSelected();
+    	return femaleRadioBtn;
+	}
 }

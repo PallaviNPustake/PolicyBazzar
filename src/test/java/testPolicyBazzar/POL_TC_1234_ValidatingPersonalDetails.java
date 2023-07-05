@@ -81,6 +81,14 @@ public class POL_TC_1234_ValidatingPersonalDetails extends Base {
 		Reporter.log("Actual and expected EmailID's are matching - TC is passed", true);
 		
 	 }
+	@Test
+	public void validatingFemaleRadioSelection()
+	{
+		Assert.assertTrue(myAcc.femaleIsSelected(),"Value is false");
+		Reporter.log("Female radio button is selected - TC is passed", true);
+		
+	}
+	
 	 @AfterClass
 	 public void closingBrowser() throws InterruptedException
 	 {

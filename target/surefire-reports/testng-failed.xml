@@ -8,7 +8,7 @@
     <classes>
       <class name="testPolicyBazzar.POL_TC_1234_ValidatingPersonalDetails">
         <methods>
-          <include name="validatingUserName"/>
+          <include name="validatingFemaleRadioSelection"/>
           <include name="closingBrowser"/>
           <include name="openPolicyBazzarApplication"/>
         </methods>
